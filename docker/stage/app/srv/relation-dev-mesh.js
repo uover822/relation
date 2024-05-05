@@ -1,0 +1,12 @@
+let Seneca = require('seneca')
+
+Seneca({tag: 'relation', timeout: 5000})
+  //.test()
+  //.test('print')
+  //.use('monitor')
+  .use('entity')
+  .use('jsonfile-store', {folder: __dirname+'/../../data'})
+  .use('../relation.js')
+  .listen(9065)
+  .client({pin:'role:reason', port:9055})
+  .use('mesh')

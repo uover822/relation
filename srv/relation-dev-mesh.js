@@ -1,0 +1,10 @@
+let Seneca = require('seneca')
+
+Seneca({tag: 'relation', timeout: 5000})
+   //.test()
+   //.test('print')
+   //.use('monitor')
+  .use('../relation.js')
+  .listen(9040)
+  .client({pin:'role:store', port:9045})
+  .use('mesh')

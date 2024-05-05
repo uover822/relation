@@ -1,0 +1,4 @@
+
+FROM msr-relation:1
+
+CMD ["node", "/app/srv/relation-prod.js"]
