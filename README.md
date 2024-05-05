@@ -1,7 +1,7 @@
-# msr-relation
+# relation
 
-[![Build Status](https://travis-ci.org/msr/msr-relation.svg?branch=master)](https://travis-ci.org/msr/msr-relation)
-[![Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/msr/msr-org)
+[![Build Status](https://travis-ci.org/msr/relation.svg?branch=master)](https://travis-ci.org/msr/relation)
+[![Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/msr/org)
 
 This is a repository in the microservice demonstration system for
 the [Tao of Microservices](//bit.ly/rmtaomicro) book (chapter 9). This
@@ -82,7 +82,7 @@ testing purposes, use the service scripts in the [`srv`](srv) folder:
   A [seneca-mesh](//github.com/senecajs/seneca-mesh) version, for
   testing purposes, is also shown in the
   script [`relation-dev-mesh.js`](srv/relation-dev-mesh.js). For more on
-  this, see the [msr-repl](//github.com/msr/msr-repl)
+  this, see the [repl](//github.com/msr/repl)
   repository.
 
 * [`relation-stage.js`](srv/relation-stage.js) : run the staging
